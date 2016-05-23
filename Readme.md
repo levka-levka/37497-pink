@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Лев Пикалев](https://up.htmlacademy.ru/adaptive/7/user/37497).
-* Наставник: `Неизвестно`.
+* Наставник: [Гоша Егорян] (https://up.htmlacademy.ru/adaptive/7/user/85633).
 
 ---
 
