@@ -5,8 +5,161 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <div class="page-header__logo">
+        <img src="http://placehold.it/147x40" alt="">
+      </div>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+      <nav class="page-header main-nav">
+        <button class="main-nav__toggle--close"></button>
+        <ul class="main-nav__items">
+          <li class="main-nav__item">Главная</li>
+          <li class="main-nav__item">Фотографии</li>
+          <li class="main-nav__item">Конкурс</li>
+          <li class="main-nav__item">HTML ACADEMY</li>
+        </ul>
+      </nav>
 
+      <nav class="main-nav main-nav--close">
+        <button class="main-nav__toggle--close"></button>
+      </nav>
+    </header>
+
+    <div class="top-promo">
+      <image class="top-promo__promo-image"></image>
+      <div class="top-promo download-app">
+        <button class="top-app-promo download-app__button">Скачать приложение</button>
+
+        <ul class="top-app-promo download-app">
+          <li class="platform-items platform-item--ios">
+            <a href="#">iOS</a>
+          </li>
+          <li class="platform-items platform-item--android">
+            <a href="#">Android</a>
+          </li>
+          <li class="platform-items platform-item--win">
+            <a href="#">Windows</a>
+          </li>
+        </ul>
+        <p class="download-app download-app__about-text">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS&nbsp;X, Windows&nbsp;8
+        </p>
+      </div>
+    </div>
+
+    <div class="advantages">
+      <h1>Устали от серости мегаполиса? Нам есть, что вам предложить!</h1>
+      <div class="advantages advantage-item">
+        <img src="http://placehold.it/150x100" alt="">
+        <h3 class="advantage-item__title">Поднимает настроение</h3>
+        <p class="advantage-item__description">Приложение позволит вам победить осеннюю хандру и&nbsp;депрессию буквально в&nbsp;несколько кликов!</p>
+      </div>
+
+      <div class="advantages advantage-item">
+        <img src="http://placehold.it/150x100" alt="">
+        <h3 class="advantage-item__title">Поднимает настроение</h3>
+        <p class="advantage-item__description">Приложение позволит вам победить осеннюю хандру и&nbsp;депрессию буквально в&nbsp;несколько кликов!</p>
+      </div>
+
+      <div class="advantages advantage-item">
+        <img src="http://placehold.it/150x100" alt="">
+        <h3 class="advantage-item__title">Меняет мир вокруг</h3>
+        <p class="advantage-item__description">Сделайте снимок и&nbsp;украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+
+      <div class="advantages advantage-item">
+        <img src="http://placehold.it/150x100" alt="">
+        <h3 class="advantage-item__title">Заводит новых друзей</h3>
+        <p class="advantage-item__description">Ставьте лайки, комментируте, делитесь фотографиями с&nbsp;друзьями и&nbsp;заводите новых</p>
+      </div>
+
+      <div class="advantages advantages-item--large">
+        <img src="http://placehold.it/150x100" alt="">
+        <h3 class="advantages-item--large__title">Эффект на 24 часа!</h3>
+        <p class="advantages-item--large__description">Британские ученые провели исследования и доказали,
+что положительный эффект от использования приложения длится целые сутки!</p>
+        <a href="#" class="advantages-item--large__link">Узнать больше об исследовании</a>
+      </div>
+    </div>
+
+    <div class="feedback feedback-item">
+      <p class="feedback-item--text">Это приложение перевернуло мой мир и&nbsp;позволило по-новому взглянуть на привычные серые вещи! А&nbsp;еще я&nbsp;познакомился со своей будущей женой в комментариях к выложенной фотографии!</p>
+      <div class="feedback-item--user-name">Николай Петров</div>
+      <div class="feedback-item--user-about">25 лет, водитель трамвая</div>
+    </div>
+
+    <div class="prices">
+      <table class="prices__prices-table" border="1">
+        <tr>
+          <th class="prices-table__header--empty"></th>
+          <th class="prices-table__header">
+            <span class="rate-title">База</span>
+            <span class="rate-price">1,99 USD</span>
+          </th>
+          <th class="prices-table__header">
+            <span class="rate-title">Стандарт</span>
+            <span class="rate-price">3,99 USD</span>
+          </th>
+          <th class="prices-table__header">
+            <span class="rate-title">Анлим</span>
+            <span class="rate-price">9,99 USD</span>
+          </th>
+        </tr>
+        <tr>
+          <td>Розовый фильтр</td>
+          <td class="table-item__available">1</td>
+          <td class="table-item__available">1</td>
+          <td class="table-item__available">1</td>
+        </tr>
+        <tr>
+          <td>Смайлики</td>
+          <td class="table-item__available">0</td>
+          <td class="table-item__available">1</td>
+          <td class="table-item__available">1</td>
+        </tr>
+        <tr>
+          <td>Комментарии</td>
+          <td class="table-item__available">0</td>
+          <td class="table-item__available">0</td>
+          <td class="table-item__available">1</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-us">
+      <h2>Остались вопросы? Свяжитесь с нами!</h2>
+      <div class="contact-us__item">
+        <h3>Звоните:</h3>
+        <p>+7 (812) 555-66-66</p>
+      </div>
+      <div class="contact-us__item">
+        <h3>Приезжайте в гости:</h3>
+        <p>ул. Большая Конюшенная, 19/8</p>
+      </div>
+      <div class="contact-us__item">
+        <h3>Пишите:</h3>
+        <p>mail@htmlacademy.ru</p>
+      </div>
+      <div class="contact-us__map">
+        <iframe src="" frameborder="1"></iframe>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="main-footer__logo">
+        <img src="http://placehold.it/147x40" alt="">
+      </div>
+
+      <div class="social-items">
+        <a href="#" class="social-items__social-item--twitter">Twitter</a>
+        <a href="#" class="social-items__social-item--facebook">Facebook</a>
+        <a href="#" class="social-items__social-item--youtube">Youtube</a>
+      </div>
+
+      <div class="madeby">
+        <p>Разработано</p>
+        <a href="#">HTML Academy</a>
+      </div>
+    </footer>
   </body>
 </html>
